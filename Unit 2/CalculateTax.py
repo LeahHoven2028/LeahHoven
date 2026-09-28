@@ -1,9 +1,9 @@
 item = input("What is the item? ")
 price = input("What is the price? ")
-rate = 0.06875
+rate = 1.06875
 calculate_tax = (item, price, rate)
 
-price = int(price)
+price = float(price)
 rate = float(rate)
 
 tax = (price * rate)
