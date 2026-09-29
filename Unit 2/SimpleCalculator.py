@@ -1,13 +1,21 @@
-x_value = input("What is the x value? ")
-y_value = input("What is the y value? ")
-x_value = int(x_value)
-y_value = int(y_value)
+x_value = float(input("What is the x value? "))
+y_value = float(input("What is the y value? "))
 
-print(x_value + y_value)           #Adds the x and y values together
-print(x_value - y_value)           #Subtracts the y value from the x value
-print(x_value * y_value)           #Multiplies the x and y values together
-print(x_value / y_value)           #Divides the x value by the y value
-print(x_value % y_value)           #Divides the x value by the y value and returns the remainder
-print(x_value ** y_value)          #Raises the x value to the power of the y value
-print(x_value // y_value)          #Divides the x value by the y value and returns the whole number
+def add(x, y):
+    print(x + y)
+
+def subtract(x, y):
+    print(x - y)
+
+def multiply(x, y):
+    print(x * y)
+
+def divide(x, y):
+    print(x / y)
+
+add(x_value, y_value)           #Adds the x and y values together
+subtract(x_value, y_value)      #Subtracts the y value from the x value
+multiply(x_value, y_value)      #Multiplies the x and y values together
+divide(x_value, y_value)        #Divides the x value by the y value
+
 
