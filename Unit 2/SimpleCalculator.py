@@ -17,5 +17,3 @@ add(x_value, y_value)           #Adds the x and y values together
 subtract(x_value, y_value)      #Subtracts the y value from the x value
 multiply(x_value, y_value)      #Multiplies the x and y values together
 divide(x_value, y_value)        #Divides the x value by the y value
-
-

@@ -1,0 +1,31 @@
+name = input("What is your name? ")
+destination = input("Where are you going to travel? ")
+deparute_month = input("What month are you leaving? ")
+deparute_day = int(input("What day are you leaving? "))
+trip_length = int(input("How many days will you be gone? "))
+
+transportation = input("What type of transportation will you be using? ")
+ticket_price = float(input("What is the price of your ticket? "))
+hotel_name = input("What is the name of your hotel? ")
+room_price = float(input("What is the price of your hotel room per night? "))
+num_rooms = int(input("How many rooms will you be booking? "))
+
+three_activities = input("What are three activities you plan to do? ")
+spending_budget = float(input("What is your spending budget for the trip? "))
+souvenir_budget = float(input("What is your souvenir budget for the trip? "))
+
+def travel_profile(name, destination, deparute_month, deparute_day, trip_length, transportation, ticket_price, hotel_name, room_price, num_rooms, three_activities, spending_budget, souvenir_budget):
+    print("Traveler Name: " + name)
+    print("Destination: " + destination)
+    print("Departure Date: " + deparute_month + " " + str(deparute_day))
+    print("Trip Length: " + str(trip_length) + " days")
+    print("Transportation: " + transportation)
+    print("Ticket Price: $" + str(ticket_price))
+    print("Hotel Name: " + hotel_name)
+    print("Room Price per Night: $" + str(room_price))
+    print("Number of Rooms Booked: " + str(num_rooms))
+    print("Planned Activities: " + three_activities)
+    print("Spending Budget: $" + str(spending_budget))
+    print("Souvenir Budget: $" + str(souvenir_budget))
+
+print(travel_profile(name, destination, deparute_month, deparute_day, trip_length, transportation, ticket_price, hotel_name, room_price, num_rooms, three_activities, spending_budget, souvenir_budget))

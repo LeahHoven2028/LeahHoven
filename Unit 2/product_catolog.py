@@ -1,0 +1,11 @@
+name = input("What is your item's name? ")
+description = input("Describe what it is; ")
+price = float(input("What is the price of? "))
+stock = int(input("How many are in stock? "))
+weight = float(input("What is its weight? "))
+
+print("Item Name: " + name)
+print("Description: " + description)
+print("Price: $" + str(price))
+print("Stock: " + str(stock) + " units")
+print("Weight: " + str(weight) + " lbs")
