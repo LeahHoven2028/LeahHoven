@@ -1,5 +1,8 @@
-color = input("What is your favorite color?\n")
-animal = input("What is your favorite animal?\n")
-food = input("What is your favorite food?\n")
+number_one = input("Enter one number \n")
+number_two = input("Enter another number \n")
+number_three = input("Enter a third number \n")
 
-print("Your favorite color is " + color + ", your favorite animal is " + animal + " and your favorite food is " + food + ".")
+def add_three(number_one, number_two, number_three):
+    print(int(number_one) + int(number_two) + int(number_three))
+
+print(add_three(number_one, number_two, number_three))
